@@ -35,7 +35,7 @@ h2 {
 }
 #top-intro h2 {
     color: black;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 
 }
@@ -67,6 +67,14 @@ h2 {
 
 form {
     margin: 5px 1rem 0;
+}
+
+#contact-fieldset input:focus,
+#newsletter-fieldset input:focus,
+select:focus,
+textarea:focus {
+    background-color: white;
+    color: black;
 }
 
 fieldset {
@@ -135,6 +143,11 @@ fieldset {
     margin: 0.75rem 0.5rem 1.75rem 0.25rem;
 }
 
+#newsletter-fieldset textarea {
+    width: 100%;
+    height: 10em;
+}
+
 select {
     padding: 5px 15px;
 }
@@ -146,10 +159,11 @@ select {
     padding: 1.5rem;
     border-radius: 6px;
     border: none;
-    width: 75%;
+    width: 100%;
     font-weight: 700;
     font-family: inherit;
     font-size: 20px;
+    margin-top: 15px; 
 
 }
 
@@ -160,7 +174,7 @@ footer {
 }
 
 /* Media Queries */
-/* min screen width of 768px will display below */
+/* if device is greater or equal to 768px display below */
 
 @media screen and (min-width: 768px) {
 
@@ -187,14 +201,6 @@ footer {
 
     #contact-fieldset #zip {
         width: 25%;
-        margin-left: 6.4rem;
-        margin-right: auto;
-
-    }
-
-    #topics {
-        width: 961px;
-        height: 142px; 
     }
 
 }
