@@ -131,7 +131,13 @@ fieldset {
     font-style: italic;
     text-align: right;
     padding-right: 10px;
+    font-family: 'Merriweather';
   }
+
+#state {
+    color: #bab8b8;
+    font-family: 'Merriweather';
+}
 
 #newsletter-fieldset {
     width: 75%;
@@ -201,6 +207,8 @@ footer {
 
     #contact-fieldset #zip {
         width: 25%;
+        margin-right: auto;
+        margin-left: 7.3rem;
     }
 
 }
